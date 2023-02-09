@@ -14,15 +14,15 @@ namespace IterationStatements
            
                 Console.WriteLine("Lets clone you, how many drops of blood are you willing to use?");
 
-                var syrumX = int.Parse(Console.ReadLine());
+                var bloodDrops = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Lets mix in some SyrumY");
 
             foreach (var x in syrumY)
             {
-                Console.WriteLine(x * syrumX);
+                Console.WriteLine(x * bloodDrops);
             }    
-                Console.WriteLine("This is how many clones you get per shot of SyrumY. So how many clones do you want?");
+                Console.WriteLine("This is how many clones you get per shot of SyrumY mixed with your blood. So how many clones do you want?");
             
                 Console.ReadLine();
                  

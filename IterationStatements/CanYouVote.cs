@@ -26,7 +26,7 @@ namespace IterationStatements
                 {
                     Console.WriteLine("You can vote!!");
                 }
-                else if (x < 18)
+                else if (x < 18 && x > 0)
                 {
                     Console.WriteLine("You can not vote sorry. Come back when your 18.");
                 }

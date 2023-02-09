@@ -13,7 +13,7 @@
             //PowerUpBug.ChargeBug();
             //CanYouVote.Voter();
             //AreYouCool.CoolMeter();
-            //TimesTable.Clones();
+            TimesTable.Clones();
         }
     }
 }
